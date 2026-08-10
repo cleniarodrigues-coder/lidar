@@ -45,19 +45,22 @@
         </div>
     </header>
 
-    <section id="dashboard" class="py-20 bg-white">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-12">
-                <h3 class="text-3xl font-bold text-[#002147]">Monitoramento e Previsão</h3>
-                <div class="h-1 w-20 bg-yellow-500 mx-auto mt-4"></div>
-            </div>
-            <div class="bg-slate-100 rounded-3xl p-4 shadow-2xl min-h-[600px] border-4 border-[#002147]/10 flex flex-col items-center justify-center">
-                <i class="fas fa-chart-line text-6xl text-slate-300 mb-4"></i>
-                <p class="text-slate-500 font-medium">Dashboard de Previsão em desenvolvimento...</p>
-                <p class="text-sm text-slate-400 mt-2 italic">(Área reservada para integração do Streamlit / PowerBI / Gráficos)</p>
-            </div>
+   <section id="dashboard" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-bold text-[#002147]">Monitoramento e Previsão</h3>
+            <div class="h-1 w-20 bg-yellow-500 mx-auto mt-4"></div>
         </div>
-    </section>
+        
+        <!-- BLOCO DA PREVISÃO ATUALIZADO -->
+        <div class="bg-slate-100 rounded-3xl p-6 shadow-2xl border-4 border-[#002147]/10 flex flex-col items-center justify-center max-w-4xl mx-auto">
+            <img src="previsao_brasil.png" alt="Previsão Meteorológica Diária" class="w-full h-auto rounded-2xl shadow-md border border-slate-200">
+            <p class="text-xs text-slate-500 mt-4 italic">
+                <i class="fas fa-sync-alt text-blue-500 mr-1"></i> Atualizado diariamente via GitHub Actions.
+            </p>
+        </div>
+    </div>
+</section>
 
     <section id="equipe" class="py-20 bg-slate-50">
         <div class="container mx-auto px-6">

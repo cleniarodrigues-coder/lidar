@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIDAR - Laboratório de Micrometeorologia | UFCG</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 font-sans text-slate-900 scroll-smooth">
+
+    <nav class="bg-[#002147] text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <div class="w-24 h-24 rounded-full mx-auto mb-6 overflow-hidden">
+    <img src="https://raw.githubusercontent.com/cleniarodrigues-coder/site-lidar/refs/heads/main/lidar.jpeg" class="w-full h-full object-cover" alt="Logo LIDAR">
+</div>
+                <div>
+                    <h1 class="font-bold text-xl leading-none">LIDAR</h1>
+                    <p class="text-[10px] text-blue-300 uppercase tracking-widest">Laboratório de Micrometeorologia</p>
+                </div>
+            </div>
+            <ul class="hidden md:flex gap-8 text-sm font-semibold uppercase tracking-tighter">
+                <li><a href="#home" class="hover:text-blue-400 transition">Início</a></li>
+                <li><a href="#dashboard" class="text-yellow-400 hover:text-yellow-300 transition">Previsão</a></li>
+                <li><a href="#equipe" class="hover:text-blue-400 transition">Equipe</a></li>
+                <li><a href="#contato" class="hover:text-blue-400 transition">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="relative bg-[#002147] py-24 text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-20">
+            <img src="https://images.unsplash.com/photo-1534088568595-a066f710b81f?auto=format&fit=crop&q=80&w=2000" class="w-full h-full object-cover">
+        </div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <h2 class="text-5xl md:text-6xl font-extrabold mb-6 italic">Explorando a Camada Limite Atmosférica</h2>
+            <p class="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto mb-10 leading-relaxed">
+                Pesquisa avançada em tecnologias atuais, fluxos de energia e micrometeorologia aplicada ao semiárido brasileiro.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#dashboard" class="bg-yellow-500 hover:bg-yellow-400 text-[#002147] px-8 py-3 rounded-full font-bold shadow-xl transition transform hover:scale-105">Ver Previsão em Tempo Real</a>
+                <a href="#equipe" class="bg-transparent border-2 border-white hover:bg-white hover:text-[#002147] px-8 py-3 rounded-full font-bold transition">Conhecer a Equipe</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="dashboard" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-[#002147]">Monitoramento e Previsão</h3>
+                <div class="h-1 w-20 bg-yellow-500 mx-auto mt-4"></div>
+            </div>
+            <div class="bg-slate-100 rounded-3xl p-4 shadow-2xl min-h-[600px] border-4 border-[#002147]/10 flex flex-col items-center justify-center">
+                <i class="fas fa-chart-line text-6xl text-slate-300 mb-4"></i>
+                <p class="text-slate-500 font-medium">Dashboard de Previsão em desenvolvimento...</p>
+                <p class="text-sm text-slate-400 mt-2 italic">(Área reservada para integração do Streamlit / PowerBI / Gráficos)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe" class="py-20 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold text-[#002147]">Pesquisadores e Colaboradores</h3>
+                <p class="text-slate-600 mt-2 italic text-sm">Laboratório de Micrometeorologia - UFCG</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-all border-b-8 border-[#002147]">
+                    <div class="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-6 flex items-center justify-center overflow-hidden">
+                        <div class="w-24 h-24 rounded-full mx-auto mb-6 overflow-hidden">
+    <img src="https://raw.githubusercontent.com/cleniarodrigues-coder/site-lidar/refs/heads/main/Coordenadora.jpeg" class="w-full h-full object-cover" alt="Foto Coordenadora">
+</div>
+                    </div>
+                    <h4 class="text-xl font-bold text-center">Profa. Dra. Clênia Rodrigues Alcântara</h4>
+                    <p class="text-blue-600 text-sm font-semibold text-center mb-4">Coordenadora Geral</p>
+                    <p class="text-slate-600 text-sm text-center mb-6 leading-relaxed">Especialista em fluxos superficiais e Modelagem atmosférica.</p>
+                    <div class="flex justify-center border-t pt-4">
+                        <a href="http://lattes.cnpq.br/5915864826877257" class="text-[#002147] hover:text-blue-600 text-xs font-bold uppercase tracking-widest flex items-center gap-2">
+                            <i class="fas fa-graduation-cap"></i> Currículo Lattes
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-all border-b-8 border-blue-500">
+                    <div class="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-6 flex items-center justify-center overflow-hidden">
+                        <i class="fas fa-user-graduate text-4xl text-slate-400"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-center">Nome do Aluno</h4>
+                    <p class="text-blue-600 text-sm font-semibold text-center mb-4">Doutorando / Pesquisador</p>
+                    <p class="text-slate-600 text-sm text-center mb-6 leading-relaxed">Focado em modelagem atmosférica e turbulência.</p>
+                    <div class="flex justify-center border-t pt-4">
+                        <a href="#" class="text-[#002147] hover:text-blue-600 text-xs font-bold uppercase tracking-widest flex items-center gap-2">
+                            <i class="fas fa-graduation-cap"></i> Currículo Lattes
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-all border-b-8 border-blue-300 text-center">
+                    <div class="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-6 flex items-center justify-center">
+                         <i class="fas fa-users text-4xl text-slate-400"></i>
+                    </div>
+                    <h4 class="text-xl font-bold">Novos Membros</h4>
+                    <p class="text-slate-500 text-sm mt-4 italic leading-tight">Estamos sempre abertos a colaborações e novos pesquisadores na UFCG.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato" class="bg-[#00152e] text-slate-400 py-12">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12">
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4 italic italic uppercase tracking-tighter">LIDAR UFCG</h4>
+                <p class="text-sm leading-relaxed max-w-md">
+                    Laboratório vinculado à Unidade Acadêmica de Ciências Atmosféricas da Universidade Federal de Campina Grande.
+                </p>
+            </div>
+            <div class="flex flex-col gap-2 text-sm">
+                <p class="flex items-center gap-2"><i class="fas fa-map-marker-alt text-blue-500"></i> Campina Grande, PB - Brasil</p>
+                <p class="flex items-center gap-2"><i class="fas fa-university text-blue-500"></i> Campus Sede - Bloco CERTBIO</p>
+                <p class="flex items-center gap-2"><i class="fas fa-envelope text-blue-500"></i> lidar.ufcg@email.com</p>
+            </div>
+        </div>
+        <div class="border-t border-slate-800 mt-10 pt-6 text-center text-xs">
+            &copy; 2024 LIDAR - Laboratório de Micrometeorologia. Todos os direitos reservados.
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+
+
+
+
+
